@@ -246,24 +246,26 @@
       @keyframes animatecard {
         0% {
           background:url(img/blossomski1.png);
-        background-size:cover
+        background-size:cover;
+        background-position: center;
         }
         40% {
           background:url(img/blossomski1.png);
-        background-size:cover
+          background-size:cover;
+          background-position: center;        
         }
         50% {
           background:url(img/blossomski2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/blossomski2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/blossomski1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
 
@@ -273,24 +275,24 @@
       @keyframes animatecard2 {
         0% {
           background:url(img/goggle-w-analog.jpg);
-        background-size:cover
-        }
+          background-size:contain;
+          background-position: center;        }
         40% {
           background:url(img/goggle-w-analog.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/goggles-l-white2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/goggles-l-white2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/goggle-w-analog.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card3 {
@@ -299,24 +301,24 @@
       @keyframes animatecard3 {
         0% {
           background:url(img/goggle-b-analog.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/goggle-b-analog.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/goggles-l-black2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/goggles-l-black2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/goggle-b-analog.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card4 {
@@ -325,24 +327,24 @@
       @keyframes animatecard4 {
         0% {
           background:url(img/goggle-w-analog2.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/goggle-w-analog2.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/goggles-s-white2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/goggles-s-white2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/goggle-w-analog2.jpg);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
 
@@ -352,24 +354,24 @@
       @keyframes animatecard5 {
         0% {
           background:url(img/analogtest2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/analogtest2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/racepdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/racepdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/analogtest2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card6 {
@@ -378,24 +380,24 @@
       @keyframes animatecard6 {
         0% {
           background:url(img/rc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/rc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/rc2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/rc2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/rc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card7 {
@@ -404,24 +406,24 @@
       @keyframes animatecard7 {
         0% {
           background:url(img/gs1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/gs1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/gs2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/gs2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/gs1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card8 {
@@ -430,24 +432,24 @@
       @keyframes animatecard8 {
         0% {
           background:url(img/xc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/xc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/xc2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/xc2.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/xc1.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card9 {
@@ -456,24 +458,24 @@
       @keyframes animatecard9 {
         0% {
           background:url(img/strolzracenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/strolzracenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/racepdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/racepdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/strolzracenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
       .animate-card10 {
@@ -482,24 +484,24 @@
       @keyframes animatecard10 {
         0% {
           background:url(img/strolzfreeridenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         40% {
           background:url(img/strolzfreeridenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         50% {
           background:url(img/freerider-pdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         90% {
           background:url(img/freerider-pdp.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
         100% {
           background:url(img/strolzfreeridenew.png);
-        background-size:cover
-        }
+          background-size:cover;
+          background-position: center;        }
       }
 
 

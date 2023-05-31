@@ -149,8 +149,7 @@ module.exports = {
        
       },
       cursor: {
-    default: 'url(http://felixgottlieb.se/dot3.3.png), default',   
-    pointer: 'url(http://felixgottlieb.se/dot3.2.png), pointer',       
+        
       },
    
     },

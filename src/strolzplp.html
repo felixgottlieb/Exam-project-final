@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en"  class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logotype_icon.png" />
+
+    <title>Strolz</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+ <!-- Navbar start -->
+ <body class=" max-w-screen bg-white-pr">
+     
+  <header id="navbar" class="sticky  z-50 top-[0vh]">
+    <div  class="sm:hidden sticky border-b border-white-pr  bg-opacity-95 lg:flex flex-row justify-between items-center h-[7vh] w-full bg-black-pr">
+     <div class="h-10 w-1/3 flex items-center justify-start"> <a href="index.html"><img src="img/logotype navbar.png" class="ml-4 h-8 w-max active:scale-90 hover:scale-110 delay-50 duration-300"></a> </div>
+      <div class="w-1/3 h-10 flex flex-row  items-center justify-evenly gap-6">
+        <a href="gogglesplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Goggles</a>
+        <a href="blossomplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Blossom</a>
+        <a href="strolzplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Strolz</a>
+        <a href="bootfitting.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Boot Fitting</a>
+        <a href="aboutus.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Info</a>
+    
+    
+    
+      </div>
+      <div class=" w-1/3 h-10 mr-4 flex flex-row items-center justify-end gap-6">
+        <a href="aboutus.html#contact" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 text-base font-mulish delay-50 duration-300 text-base text-white-pr font-light">Contact</a>
+        <a href="" class="snipcart-checkout  active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 text-base font-mulish delay-50 duration-300 text-base text-white-pr font-light">Cart (<span class="snipcart-items-count hover:text-white-pr text-yellow-pr">0</span>)</a>
+       <div id="openlang" class="w-6 flex flex-col ">
+          <img src="img/flag-uk.png" class="active:scale-110 active:font-bold w-6 h-6">
+          <div id="openedlang" class="hidden flex flex-col  absolute mt-6">
+          <img src="img/flag-swe.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+          <img src="img/flag-nor.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+          <img src="img/flag-den.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+      </div>
+      </div>
+    
+      </div>
+    </div>
+    <div id="navbar-closed" class="sm:flex  lg:hidden sticky z-10 top-0vh justify-evenly items-center h-[7vh]  bg-black-pr">
+     <div class="w-1/3 h-full flex justify-start items-center">
+      <a id="openmenu" class="active:scale-110 active:font-bold ml-3 font-mulish text-base text-white-pr ">Menu</a>
+    </div>
+    <div class="w-1/3 h-full flex justify-center items-center">
+     <a href="index.html"> <img src="img/logotype navbar.png" class="h-[4vh] w-auto"></a>
+    </div>
+    <div class="w-1/3 h-full flex justify-end items-center">
+      <a  class="snipcart-checkout  active:scale-110 active:font-bold mr-3 font-mulish text-base text-white-pr ">Cart (<span class="snipcart-items-count text-yellow-pr">0</span>)</a>
+    </div>
+    
+    </div>
+    <div id="navbar-opened" class="z-50 hidden bg-black-pr h-screen w-screen max-w-screen flex flex-col">
+      <div class="sm:flex pt-1 sticky z-10 top-0vh justify-evenly items-center h-[7vh]  ">
+        <div class="w-1/3 h-full flex justify-start items-center">
+         <a id="closemenu" class="active:scale-110 active:font-bold ml-3 font-mulish text-base text-white-pr ">Close</a>
+       </div>
+       <div class="w-1/3 h-full flex justify-center items-center">
+       <a href="index.html"> <img src="img/logotype navbar.png" class="h-[4vh] w-auto"></a> 
+       </div>
+       <div class="w-1/3 h-full snipcart-checkout flex justify-end items-center">
+         <a href="" class="snipcart-checkout active:scale-110 active:font-bold mr-3 font-mulish text-base text-white-pr ">Cart (<span class="snipcart-items-count text-yellow-pr">0</span>)</a>
+       </div>
+     
+       </div> 
+     <div class="h-screen w-screen flex flex-col">
+      <div class="h-1/3 w-screen"></div>
+      <div class="h-1/3 w-screen flex justify-evenly items-end">
+        <div class="flex w-1/3 flex-col items-end gap-6 border-r pt-4 pb-10 pr-5 border-white-pr">
+       <a href="aboutus.html#contact" class="font-mulish text-white-pr font-normal text-base">Contact</a>
+       <img src="img/flag-uk.png" class="h-8 w-8">
+       <img src="img/flag-den.png" class="h-8 w-8">
+       <img src="img/flag-nor.png" class="h-8 w-8">
+       <img src="img/flag-swe.png" class="h-8 w-8">
+      
+    
+    
+        </div>
+        <div class="flex w-1/3 flex-col items-start gap-8  pt-4 pb-10 pl-5 ">
+          <a href="gogglesplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Goggles</a>
+          <a href="blossomplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Blossom Skis</a>
+          <a href="strolzplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Strolz Boots</a>
+          <a href="bootfitting.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Boot Fitting</a>
+          <a href="aboutus.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Info</a>
+    
+     
+           </div>
+        <div class="w-1/3"></div>
+      </div>
+    
+      <div class="h-1/3 w-screen flex flex-col justify-end items-center">
+        <div class="bg-blue-pr w-screen h-[6vh] flex items-center justify-center">
+      <img src="img/stripe.svg" class="h-[4vh] w-auto">
+        </div>
+      </div>
+     </div>
+    </div>
+    </header>
+    <!-- Navbar end -->
+
+<main class="">
+<div class="h-16 w-screen slide-in-left flex justify-start items-center bg-white-pr">
+    
+ <img id="arrowcuh" src="img/arrow-black.svg" class=" opacity-0 absolute rotate-180 ml-2 w-5 h-5">
+ <button id="text-cuh" onclick="window.history.go(-1)" class="active:scale-90 sm:ml-3 lg:ml-4 font-lg go-back font-bold  text-black-pr font-mulish">Go back</button>
+</div>
+    <section class="w-screen h-auto min-h-[60vh] flex sm:flex-col lg:flex-row">
+     
+        <div class=" sm:w-screen lg:w-[45vw] slide-in-left sm:min-h-[55vh] lg:min-h-[35vh] flex justify-center flex-col items-center gap-6 bg-center bg-ganalog5    bg-cover">
+       <img src="img/strolz-white.png" class=" sm:h-32 lg:h-40 w-auto">
+       <p class=" text-white-pr ml-20 mr-20 text-center  font-base font-light text-base font-mulish">The Skibua Goggles are crafted to give you the best possible value in terms of ski goggles. Choose a size and color that fits you and enjoy skiing in all weather conditions.</p>
+        </div>
+     <div class="sm:w-screen  lg:h-[60vh] slide-in-right lg:order-last sm:order-first lg:w-[55vw] min-h-[40vh]">
+       <div class="overflow-hidden bg-black-pr flex justify-center items-center w-full h-full">
+
+        <video autoplay loop muted  class="w-auto h-full ">
+            <source src="img/strolz-double-2.1_1.mp4" type="video/mp4" />
+           
+          </video>
+       </div> 
+     </div>
+    </section>
+    <div class="h-10 pt-10 pb-4 w-screen slide-in-top2 justify-start items-center flex">
+        <div id="openchoice" class="sm:ml-3 lg:ml-4 flex border border-black-pr w-44 bg-white-pr  h-auto">
+            <div class="w-44 flex h-7">
+            <div class="h-10 w-1/5">
+            </div>
+            <div class="w-3/5 flex justify-center items-center">
+                <p id="lenght1" class="text-darkgrey-sc font-mulish text-base">Sort by</p>
+                <p id="lenght2" class=" text-black-pr hidden font-mulish text-base">Sort by</p>
+            </div>
+            <div class="h-7 w-1/5 justify-end items-center flex">
+                <img  id="arrow1" src="img/choice-arrow.png" class=" w-4 mr-3 h-auto">
+                <img  id="arrow2" src="img/choice-arrow-close.png" class=" hidden w-4 mr-3 h-auto">
+            </div></div>
+        </div>
+        <div id="openedchoice" class="sm:ml-3  lg:ml-4 mt-[17vh] hidden  border-t absolute flex flex-col gap-4 h-auto w-44 gap-4 border-black-pr border-b border-r border-l bg-white-pr">
+            <div class="flex justify-center mt-6 items-center h-auto gap-4">
+                
+                <p class="active:scale-110 font-light text-black-pr text-base font-mulish">Price - low to high</p>
+            </div>
+            <div class="flex justify-center pb-4 items-center h-auto gap-6">
+                
+                <p class="active:scale-110 font-light text-black-pr text-base font-mulish">Price - high to low</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="w-screen h-auto pt-6 pb-20 slide-in-top3 flex sm:flex-col lg:flex-row">
+
+<!-- product card start -->
+
+<div class="h-[80vh] sm:ml-0 lg:ml-4 sm:w-screen lg:w-[33vw] lg:hidden sm:flex flex-col">
+    <div class="h-4/5 animate-card10 sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-4   duration-500 transition-all  bg-cover ">
+     <div class="h-10 flex justify-start">
+       <div class="border border-black-pr  ml-4 mt-4 h-auto bg-white-pr bg-opcaity-80">
+         <p class="font-mulish  px-2 font-light text-black-pr text-base">4 Sizes</p>
+       </div>
+ 
+    
+      </div>
+      <a href="pdpstrolz.html" class="h-32 w-32 ">
+        <div class="w-full h-full"></div>
+      </a>
+    </div>
+   <div class="h-1/5 w-full flex items-start justify-between">
+    <a href="pdpstrolz.html"><h3 class="font-mulish ml-4 mt-2 font-light text-lg text-black-pr">Strolz Freerider S - All Mountain<br><span class="text-darkgrey-pr">10 499 NOK</span></h3></a> 
+    <button
+    data-item-id="Strolz Freerider S"
+    data-item-price="549"
+    data-item-description=""
+    data-item-image="http://felixgottlieb.se/freerider-pdp.png"
+    data-item-name="Strolz Freerider S"
+    data-item-custom1-name="Sizes"
+    data-item-custom1-options="22|26"
+    class="snipcart-add-item h-8"
+    ><img src="img/add-to-cart.png" 
+   
+    class=" h-8 mr-6 hover:scale-110 transition-all mt-5"></button>
+   </div>
+   </div>
+
+   <div class="h-[80vh] sm:hidden lg:flex  sm:ml-0 lg:ml-4 sm:w-screen lg:w-[33vw] flex flex-col">
+    <div class="h-4/5  sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-4   duration-500 transition-all bg-strolz2.1 bg-cover bg-center hover:bg-strolz2.2">
+     <div class="h-10 flex justify-start">
+       <div class="border border-black-pr  ml-4 mt-4 h-auto bg-white-pr bg-opcaity-80">
+         <p class="font-mulish  px-2 font-light text-black-pr text-base">4 Sizes</p>
+       </div>
+ 
+       
+      </div>
+      <a href="pdpstrolz.html" class="h-32 w-32 ">
+        <div class="w-full h-full"></div>
+      </a>
+    </div>
+   <div class="h-1/5 w-full flex items-start justify-between">
+    <a href="pdpstrolz.html"><h3 class="font-mulish ml-4 mt-2 font-light text-lg text-black-pr">Strolz Freerider S - All Mountain<br><span class="text-darkgrey-pr">10 499 NOK</span></h3></a>
+     <button
+     data-item-id="Strolz Freerider S"
+    data-item-price="549"
+    data-item-description=""
+    data-item-image="http://felixgottlieb.se/freerider-pdp.png"
+    data-item-name="Strolz Freerider S"
+    data-item-custom1-name="Sizes"
+    data-item-custom1-options="22|26"
+     class="snipcart-add-item h-8"
+     ><img src="img/add-to-cart.png" 
+    
+     class=" h-8 mr-6 hover:scale-110 transition-all mt-5"></button>           </div>
+   </div>
+<!-- product card end -->
+ <!-- product card start -->
+
+ <div class="h-[80vh] sm:ml-0 lg:ml-4 sm:w-screen lg:w-[33vw] lg:hidden sm:flex flex-col">
+  <div class="h-4/5 animate-card9 sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-4   duration-500 transition-all  bg-cover ">
+   <div class="h-10 flex justify-start">
+     <div class="border border-black-pr  ml-4 mt-4 h-auto bg-white-pr bg-opcaity-80">
+       <p class="font-mulish  px-2 font-light text-black-pr text-base">8 Sizes</p>
+     </div>
+
+  
+    </div>
+    <a href="pdpstrolz.html" class="h-32 w-32 ">
+      <div class="w-full h-full"></div>
+    </a>
+  </div>
+ <div class="h-1/5 w-full flex items-start justify-between">
+  <a href="pdpstrolz.html"><h3 class="font-mulish ml-4 mt-2 font-light text-lg text-black-pr">Strolz Racer - Piste<br><span class="text-darkgrey-pr">12 999 NOK</span></h3></a>
+  <button
+  data-item-id="Strolz Racer"
+  data-item-price="12 999"
+  data-item-description=""
+  data-item-image="http://felixgottlieb.se/racepdp.png"
+  data-item-name="Strolz Racer"
+  data-item-custom1-name="Size"
+  data-item-custom1-options="22|23"
+  class="snipcart-add-item h-8"
+  ><img src="img/add-to-cart.png" 
+ 
+  class=" h-8 mr-6 hover:scale-110 transition-all mt-5"></button>
+ </div>
+ </div>
+
+ <div class="h-[80vh] sm:hidden lg:flex  sm:ml-0 lg:ml-0 sm:w-screen lg:w-[33vw] flex flex-col">
+  <div class="h-4/5  sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-4   duration-500 transition-all bg-strolz1.1 bg-cover bg-center hover:bg-strolz1.2">
+   <div class="h-10 flex justify-start">
+     <div class="border border-black-pr  ml-4 mt-4 h-auto bg-white-pr bg-opcaity-80">
+       <p class="font-mulish  px-2 font-light text-black-pr text-base">8 Sizes</p>
+     </div>
+
+     
+    </div>
+    <a href="pdpstrolz.html" class="h-32 w-32 ">
+      <div class="w-full h-full"></div>
+    </a>
+  </div>
+ <div class="h-1/5 w-full flex items-start justify-between">
+  <a href="pdpstrolz.html"><h3 class="font-mulish ml-4 mt-2 font-light text-lg text-black-pr">Strolz Racer - Piste<br><span class="text-darkgrey-pr">12 999 NOK</span></h3></a>
+   <button
+   data-item-id="Strolz Racer"
+   data-item-price="12 999"
+   data-item-description=""
+   data-item-image="http://felixgottlieb.se/racepdp.png"
+   data-item-name="Strolz Racer"
+   data-item-custom1-name="Size"
+   data-item-custom1-options="22|23"
+   class="snipcart-add-item h-8"
+   ><img src="img/add-to-cart.png" 
+  
+   class=" h-8 mr-6 hover:scale-110 transition-all mt-5"></button>           </div>
+ </div>
+<!-- product card end -->
+         
+        
+    </div>
+</main>
+
+
+
+
+
+
+
+<footer class="z-50  absolute " >
+  <div class="w-screen sm:h-16 lg:h-24 flex border-t bg-white-pr border-black-pr">
+  <div  class="h-full flex justify-center hover:bg-[#006699] translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+     <a href="https://www.linkedin.com/in/putte-gottlieb-56384419/?originalSubdomain=no" target="_blank"><img src="img/linkedin.svg.png" class="sm:h-8 lg:h-12  w-auto">
+      <img  src="img/linkedin2.png" class="h-10 hidden w-auto">
+    </a> 
+    </div>
+    <div id="instagramcont" class="h-full flex justify-center hover:bg-instagram bg-cover translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+      <a href="https://www.instagram.com/skibuahafjell/" target="_blank">  <img id="instagram" src="img/instagram.svg.webp" class="sm:w-8 lg:w-12  h-auto">
+      <img id="instagram2" src="img/instagram2.png" class="sm:w-7 lg:w-9 hidden h-auto">
+      </a>
+    </div>
+    <div  class="h-full flex justify-center hover:bg-[#1877F2] translate-all duration-500 items-center w-1/5 border-r border-black-pr">
+      <a href="https://www.facebook.com/skibua" target="_blank">   <img src="img/Facebook-logo.png" class="sm:h-8 lg:h-14  w-auto">
+      </a>
+    </div>
+    <div id="youtubecont" class="h-full flex justify-center hover:bg-[#FE0000] translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+      <a href="https://www.youtube.com/@SkibuahafjellNo/videos" target="_blank">   <img id="youtube" src="img/youtube-1.png" class="sm:w-20 lg:w-24  h-auto">
+      <img id="youtube2" src="img/youtube-2.png" class="w-20 hidden h-auto">
+      </a>
+    </div>
+    <div id="emailcont" class="h-full flex justify-center hover:bg-black-pr translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+      
+      <a href="mailto:p@skibuahafjell.no">
+      <img id="email" src="img/email2.png" class="sm:w-8 lg:w-12  h-auto">
+      <img id="email2" src="img/email.png" class="sm:w-8 lg:w-12 hidden h-auto">
+    </a>
+    </div>
+
+  </div>
+
+  <!-- <section id="experience" class="transition-all max-w-[100vw] ease-in-out duration-300 delay-50 border-t border-black-pr top-0 hover:bg-yellow-pr mt-0 h-[3vh] bg-white-pr  mb-0">
+    <div class=" lg:block  overflow-x-hidden  border-black     ">
+      <div  class="text-black-pr font-bold   hover:pause animate-marquee flex  items-center whitespace-nowrap ">
+        <div class="flex gap-0 items-center">
+         
+  
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class=" active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+          <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+
+
+
+         
+         
+        </div>
+  
+      </div>
+  </div>
+  <div class="sm:flex lg:hidden items-center justify-center gap-3">
+    <a href="" class="active:scale-110 text-black-pr font-bold text-base">SPRING SALE <span class="font-normal">40%</span></a>
+   <p class="text-black-pr font-light  text-base">|</p>
+    <a href="" class="active:scale-110 text-black-pr font-bold text-base">STROLZ BOOTS <span class="font-normal">Tailored</span></a>
+  </div>
+  </section> -->
+  <div class="border-white-pr bg-black-pr sm:h-auto sm:flex-col lg:flex-row lg:h-[43vh] flex w-screen bg-black-pr">
+<div class="flex items-center justify-center sm:pt-10 lg:pt-0 h-full sm:w-screen lg:w-1/2">
+ <img src="img/Footer logotype.png" class="w-3/5">
+</div>
+
+<div class="lg:w-1/2 sm:w-screen sm:flex-col lg:flex-row flex">
+  <div class="sm:w-screen lg:w-1/3 flex mt-16 flex-col">
+  <div class="sm:mx-3 lg:mx-0 border-b border-white-pr">
+    <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Products</h3>
+  </div>
+  <a href="gogglesplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">Goggles</a>
+  <a href="blossomplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Blossom skis</a>
+  <a href="strolzplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Strolz Boots</a>
+
+</div>
+
+<div class="sm:w-screen lg:w-1/3 flex mt-16 flex-col">
+  <div class="sm:mx-3 lg:mx-0 border-b border-white-pr">
+    <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Services</h3>
+  </div>
+  <a href="bootfitting.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">Boot Fitting</a>
+  <a href="aboutus.html#contact" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Workshop</a>
+  <a href="aboutus.html#contact" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Test Center</a>
+
+</div>
+<div class="sm:w-screen sm:pb-20 lg:w-1/3 flex mt-16 flex-col">
+  <div class="border-b sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-10 border-white-pr">
+    <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Contact</h3>
+  </div>
+  <a href="mailto:felix.johan.gottlieb@gmail.com" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">p@skibuahafjell.no</a>
+  <a href="" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">+47 43 24 53</a>
+  <a href="aboutus.html#contact" target="_blank" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Find us!</a>
+
+
+</div>
+</div>
+</div>
+<div class="sm:h-26 lg:h-10 flex sm:flex-col 	 lg:flex-row sm:gap-4 lg:gap-0 justify-evenly items-center bg-blue-pr w-screen">
+<div class="sm:h-4 sm:order-last lg:order-first lg:h-10 sm:w-screen lg:w-1/3 flex items-end justify-start">
+  <p class="text-xs text-white-pr sm:ml-3 lg:ml-4 font-mulish font-light">© 2023 Skibua Hafjell AS</p>
+</div>
+<div class="h-10 sm:w-screen lg:w-1/3   flex justify-center sm:items-end lg:items-center gap-10">
+<a href="" class="hover:text-yellow-pr font-mulish font-normal text-base text-white-pr">Cookie Policy</a>
+<a href="" class="hover:text-yellow-pr  font-mulish font-normal text-base text-white-pr">Terms & Conditions</a>
+<a href="" class="hover:text-yellow-pr transition-color duration-100 font-mulish font-normal text-base text-white-pr">Shipping & Returns</a>
+
+</div>
+<div class="h-10 sm:justify-center lg:justify-end sm:items-end lg:items-center flex sm:w-screen lg:w-1/3 ">
+  <img src="img/stripe.svg" class="mr-4 h-7">
+</div>
+
+</div>
+</footer>
+  
+  </body>
+  <script>
+    window.SnipcartSettings = {
+        publicApiKey: 'OTRlNjA3ODctMWQ3Yy00OTlmLWFhOWYtYmI3YmUzOWJmMGEyNjM4MTkxNTc4NDQ2NTA3NDEw',
+        loadStrategy: 'on-user-interaction',
+      
+        modalStyle: "side",
+        
+  
+    };
+  
+    (()=>{var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var f=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,m=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(m.forEach(t=>document.addEventListener(t,o)),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],e=document.querySelector("#snipcart"),i=document.querySelector(`src[src^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][src$="snipcart.js"]`),n=document.querySelector(`link[href^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][href$="snipcart.css"]`);e||(e=document.createElement("div"),e.id="snipcart",e.setAttribute("hidden","true"),document.body.appendChild(e)),v(e),i||(i=document.createElement("script"),i.src=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.js`,i.async=!0,t.appendChild(i)),n||(n=document.createElement("link"),n.rel="stylesheet",n.type="text/css",n.href=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.css`,t.prepend(n)),m.forEach(g=>document.removeEventListener(g,o))}function v(t){!f||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+  </script>
+  <script type="module" src="strolzplp.js"></script>
+  </body>
+  </html>
+  
+  

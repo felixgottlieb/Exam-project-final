@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en"  class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logotype_icon.png" />
+
+    <title>About Us</title>
+  <style>
+    html {
+        scroll-behavior: smooth;
+      }</style>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      (function() {
+      emailjs.init("V7CLOniezUP0sGd3E");
+      })();
+      </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    // generate a five digit number for the contact_number variable
+                    this.contact_number.value = Math.random() * 100000 | 0;
+                    // these IDs from the previous steps
+                    emailjs.sendForm('contact_service', 'contact_form', this)
+                        .then(function() {
+                            console.log('SUCCESS!');
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                        });
+                });
+            }
+        </script>
+
+<meta charset="utf-8">
+<meta name="description" content="Skibua Hafjell is a specialized shop offering exclusive brands, boot fitting and workshop.">
+<meta name="robots" content="noindex,nofollow">
+  </head>
+
+ <!-- Navbar start -->
+ <body class=" max-w-screen bg-white-pr">
+  
+    <header id="navbar" class="sticky  z-50 top-[0vh]">
+        <div  class="sm:hidden sticky border-b border-white-pr  bg-opacity-95 lg:flex flex-row justify-between items-center h-[7vh] w-full bg-black-pr">
+         <div class="h-10 w-1/3 flex items-center justify-start"> <a href="index.html"><img src="img/logotype navbar.png" class="ml-4 h-8 w-max active:scale-90 hover:scale-110 delay-50 duration-300"></a> </div>
+          <div class="w-1/3 h-10 flex flex-row  items-center justify-evenly gap-6">
+            <a href="gogglesplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Goggles</a>
+            <a href="blossomplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Blossom</a>
+            <a href="strolzplp.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Strolz</a>
+            <a href="bootfitting.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Boot Fitting</a>
+            <a href="aboutus.html" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 delay-50 duration-300 font-mulish text-base text-white-pr font-light">Info</a>
+        
+        
+        
+          </div>
+          <div class=" w-1/3 h-10 mr-4 flex flex-row items-center justify-end gap-6">
+            <a href="aboutus.html#contact" class="active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 text-base font-mulish delay-50 duration-300 text-base text-white-pr font-light">Contact</a>
+            <a href="" class="snipcart-checkout  active:scale-110 active:font-bold hover:text-yellow-pr transition ease-in-out hover:-translate-y-1 text-base font-mulish delay-50 duration-300 text-base text-white-pr font-light">Cart (<span class="snipcart-items-count hover:text-white-pr text-yellow-pr">0</span>)</a>
+           <div id="openlang" class="w-6 flex flex-col ">
+              <img src="img/flag-uk.png" class="active:scale-110 active:font-bold w-6 h-6">
+              <div id="openedlang" class="hidden flex flex-col  absolute mt-6">
+              <img src="img/flag-swe.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+              <img src="img/flag-nor.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+              <img src="img/flag-den.png" class="active:scale-110 mt-3 active:font-bold w-6 h-6">
+          </div>
+          </div>
+        
+          </div>
+        </div>
+        <div id="navbar-closed" class="sm:flex  lg:hidden sticky z-10 top-0vh justify-evenly items-center h-[7vh]  bg-black-pr">
+         <div class="w-1/3 h-full flex justify-start items-center">
+          <a id="openmenu" class="active:scale-110 active:font-bold ml-3 font-mulish text-base text-white-pr ">Menu</a>
+        </div>
+        <div class="w-1/3 h-full flex justify-center items-center">
+         <a href="index.html"> <img src="img/logotype navbar.png" class="h-[4vh] w-auto"></a>
+        </div>
+        <div class="w-1/3 h-full flex justify-end items-center">
+          <a  class="snipcart-checkout  active:scale-110 active:font-bold mr-3 font-mulish text-base text-white-pr ">Cart (<span class="snipcart-items-count text-yellow-pr">0</span>)</a>
+        </div>
+        
+        </div>
+        <div id="navbar-opened" class="z-50 hidden bg-black-pr h-screen w-screen max-w-screen flex flex-col">
+          <div class="sm:flex pt-1 sticky z-10 top-0vh justify-evenly items-center h-[7vh]  ">
+            <div class="w-1/3 h-full flex justify-start items-center">
+             <a id="closemenu" class="active:scale-110 active:font-bold ml-3 font-mulish text-base text-white-pr ">Close</a>
+           </div>
+           <div class="w-1/3 h-full flex justify-center items-center">
+           <a href="index.html"> <img src="img/logotype navbar.png" class="h-[4vh] w-auto"></a> 
+           </div>
+           <div class="w-1/3 h-full snipcart-checkout flex justify-end items-center">
+             <a href="" class="snipcart-checkout active:scale-110 active:font-bold mr-3 font-mulish text-base text-white-pr ">Cart (<span class="snipcart-items-count text-yellow-pr">0</span>)</a>
+           </div>
+         
+           </div> 
+         <div class="h-screen w-screen flex flex-col">
+          <div class="h-1/3 w-screen"></div>
+          <div class="h-1/3 w-screen flex justify-evenly items-end">
+            <div class="flex w-1/3 flex-col items-end gap-6 border-r pt-4 pb-10 pr-5 border-white-pr">
+           <a href="aboutus.html#contact" class="font-mulish text-white-pr font-normal text-base">Contact</a>
+           <img src="img/flag-uk.png" class="h-8 w-8">
+           <img src="img/flag-den.png" class="h-8 w-8">
+           <img src="img/flag-nor.png" class="h-8 w-8">
+           <img src="img/flag-swe.png" class="h-8 w-8">
+          
+        
+        
+            </div>
+            <div class="flex w-1/3 flex-col items-start gap-8  pt-4 pb-10 pl-5 ">
+              <a href="gogglesplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Goggles</a>
+              <a href="blossomplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Blossom Skis</a>
+              <a href="strolzplp.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Strolz Boots</a>
+              <a href="bootfitting.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Boot Fitting</a>
+              <a href="aboutus.html" class="active:scale-110 active:font-bold font-mulish text-white-pr font-normal text-base">Info</a>
+        
+         
+               </div>
+            <div class="w-1/3"></div>
+          </div>
+        
+          <div class="h-1/3 w-screen flex flex-col justify-end items-center">
+            <div class="bg-blue-pr w-screen h-[6vh] flex items-center justify-center">
+          <img src="img/stripe.svg" class="h-[4vh] w-auto">
+            </div>
+          </div>
+         </div>
+        </div>
+        </header>
+        <!-- Navbar end -->
+<main class="">
+<div class="h-16 w-screen flex slide-in-left justify-start items-center bg-white-pr">
+    
+ <img id="arrowcuh" src="img/arrow-black.svg" class=" opacity-0 absolute rotate-180 ml-2 w-5 h-5">
+ <button id="text-cuh" onclick="window.history.go(-1)" class="active:scale-90 sm:ml-3 lg:ml-4 font-lg go-back font-bold  text-black-pr font-mulish">Go back</button>
+</div>
+    <section class="w-screen  h-auto min-h-[60vh] flex sm:flex-col lg:flex-row">
+
+        <div class="sm:w-screen slide-in-left lg:w-[45vw] sm:min-h-[55vh] lg:min-h-[35vh] flex justify-center flex-col items-center gap-6 bg-black-pr">
+          <img src="img/Footer logotype.png" class=" sm:h-32 lg:h-32 w-auto">
+          <div class="flex justify-center gap-4 items-center">
+          <h1 class="text-white-pr sm:ml-3 text-center lg:ml-0 text-3xl font-mulish font-light">Why tell you when we can show you</h1>
+          <img src="img/arrow.png" class="sm:h-0 lg:h-6 mt-1 w-auto">
+
+        </div>
+        </div>
+     <div class="sm:w-screen sm:h-[40vh] slide-in-right sm:min-h-[55vh] lg:min-h-[35vh] lg:h-[60vh]  lg:order-last sm:order-first lg:w-[55vw] min-h-[40vh]">
+      <div class="overflow-hidden w-full h-full"> <iframe class="scale-150 overflow-hidden" width="100%" height="100%" src="https://www.youtube.com/embed/ptr4qr2DzCw/?modestbranding=1&amp?controls=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> 
+     </div>  
+    </section>
+    <div class="h-auto slide-in-top2 sm:h-[30vh] lg:h-[15vh] 
+      w-screen justify-evenly items-center sm:flex-col lg:flex-row flex">
+    <div class="sm:w-screen lg:w-1/2 sm:h-20  lg:h-full flex justify-start gap-4 items-end">
+        <h2 class="text-black-pr sm:text-xl lg:text-3xl font-mulish sm:ml-3 lg:ml-4 font-light">About Us</h2>
+        <img src="img/arrow-down-black.png" class="mb-2 h-6  w-auto">
+    </div>
+    <div class="w-1/2 sm:pt-20 lg:pt-0 sm:pb-10 lg:pb-0 sm:order-first lg:order-last sm:h-20 lg:h-full flex justify-center  items-center">
+        <a href="#contact"> <button class="w-[250px] h-[55px] border-2 border-black-pr flex  items-center font-semibold sm:text-base lg:text-lg font-mulish text-black-pr bg-white-pr 
+            hover:w-[260px] hover:border-white-pr hover:bg-blue-pr hover:text-white-pr transition-all delay-50 duration-300 hover:text-7xl
+            active:scale-90 active:font-light active:bg-white-pr">
+          
+          <div class="w-6"></div>
+          <div class="w-full">CONTACT</div>
+          <div class="w-6 flex items-center justify-center">
+          </div>
+          </button></a>
+      
+    </div>
+      
+    </div>
+
+    <section class="slide-in-top3 w-screen flex sm:flex-col border-t border-lightgrey-pr sm:flex-col-reverse lg:flex-row">
+        <div class="sm:w-screen sm:w-screen lg:w-[55vw] bg-solvang bg-cover bg-center bg-norepeat sm:h-[50vh] lg:h-[75vh]"></div>
+
+         <div class="sm:w-screen sm:w-screen lg:w-[45vw] bg-white-pr sm:h-auto sm:pb-10 lg:h-[75vh] flex flex-col">
+          <div class="h-5/5 w-full flex  justify-between">
+            <div class="flex   sm:mt-10 lg:mt-4 sm:ml-3 lg:ml-4 flex-col ">
+            <h2 class="font-mulish sm:text-lg lg:text-xl text-black-pr  font-light">The School of Skiing</h2>
+            <p class="text-base font-mulish font-light mt-2 sm:mr-3 lg:mr-4 text-darkgrey-pr">The building Skibua houses was actually for many years during the 1900s a school. Skibua has operated in Hafjell since 2010 and has become a niche ski shop, workshop and boot fitter operator. We know use our teachings to pass on our unique knowledge within adapting the products we offer to fit every clients specific needs to our colleagues.</p>
+          </div>
+          </div>
+          
+         
+            
+            
+           
+         </div>
+
+       
+      </section>
+      <section class=" w-screen border-t border-lightgrey-pr flex sm:flex-col  sm:flex-col-reverse lg:flex-row">
+
+         <div class="sm:w-screen sm:w-screen lg:w-[45vw] bg-white-pr sm:h-auto sm:pb-10 lg:pb-0 lg:h-[75vh] flex flex-col">
+          <div class="h-5/5 w-full flex  justify-between">
+            <div class="flex   sm:mt-10 lg:mt-4 sm:ml-3 lg:ml-4 flex-col ">
+            <h2 class="font-mulish sm:text-lg lg:text-xl text-black-pr  font-light">Our Story</h2>
+            <p class="text-base font-mulish sm:mr-3 lg:mr-4 font-light mt-2 text-darkgrey-pr">Ski og snø er vår passion, noe vi hvert år gleder oss til og noe vi jobbet profesjonelt med i snart 40 år.
+                Med coaching ute på snø, utdanning, skileie, bootfitting, utstyr mm. <br><br>
+                Møter med så mange, både gjester, kunder og kollegaer, år av så mye glede og passion.
+                <br><br>
+                Alle disse årene og alle møter og opplevelser har gitt oss så mye energi. Og all denne energien bringer vi inn i det vi gjør fordi vi vil dele den med deg. Du som kunde er vårt fokus. Vi ønsker å bygge en langsiktig relasjon og gi deg den gode følelsen. Enten du er ung eller gammal, fra nær eller langt borte, ny på ski eller elitløpere.
+            
+          </div>
+          </div>
+          
+         
+            
+            
+           
+         </div>
+         <div class="sm:w-screen lg:w-[55vw]  sm:order-first lg:order-last bg-building bg-cover bg-center bg-norepeat sm:h-[50vh] lg:h-[75vh]"></div>
+
+       
+      </section>
+
+      <section class=" w-screen border-b border-t border-lightgrey-pr border-black-pr flex sm:flex-col  sm:flex-col-reverse lg:flex-row">
+        <div class="sm:w-screen lg:w-[55vw] sm:order-first  bg-building2 bg-cover bg-center bg-norepeat sm:h-[50vh] lg:h-[75vh]"></div>
+
+        <div class="sm:w-screen lg:w-[45vw] bg-white-pr sm:h-auto sm:pb-10 lg:h-[75vh] flex flex-col">
+         <div class="h-5/5 w-full flex  justify-between">
+           <div class="flex   sm:mt-10 lg:mt-4 sm:ml-3 lg:ml-4 flex-col ">
+           <h2 class="font-mulish sm:text-lg lg:text-xl text-black-pr  font-light">Here to give you the good feeling!</h2>
+           <p class="text-base font-mulish font-light text-darkgrey-pr mt-2 sm:mr-3 lg:mr-4">                I Skibua Hafjell Skiutleie legger vi største vekt ved beste service og faglig kompetanse. Vi er ikke størst med flest par ski men hos oss får du faglig veiledning og det riktige utstyret uten risiko for kopi eller annet som kan skje ved f eks handel på nettet. Allt vi leier ut og selger har vi nøye testet ut og er ting vi stoler på og bruker selv. Finnes det noe bedre enn å anbefale noe man liker veldig gott og syns er det beste?
+
+
+         
+           <br><br>
+           Velkommen inn til oss på en tur i historien bland ski og støvler og bilder fra gamle dager. Kanskje finner du akkurat dine første skistøvler eller ski. Vi har samlet i årevis og fått med oss mange fantastiske historier fra mennesker med like stor passion for ski.
+           <br><br>
+           Og velkommen inn på en hyggelig skiprat, en stund med en god bok i Cathys corner eller med spørsmål kring skikjøring og skiutstyr. Vi finnes her for deg!
+        </p>
+         </div>
+         </div>
+         
+        
+           
+           
+          
+        </div>
+
+      
+     </section>
+
+
+    <section id="contact" class="w-screen pt-[6vh] h-auto bg-white-pr flex flex-col  ">
+      <div class="w-screen h-10 flex border-b  gap-4 border-darkgrey-pr justify-start items-end">
+        <h2 class="font-mulish text-black-pr sm:text-xl lg:text-3xl font-light sm:ml-3 lg:ml-4">Contact</h2>
+        <img src="img/arrow-down-black.png" class="mb-2 h-6  w-auto">
+ 
+    </div>
+     
+      <div class="w-screen h-auto flex sm:flex-col lg:flex-row">
+      <div class="sm:w-screen flex flex-col  pb-20 lg:border-l lg:border-lightgrey-pr lg:w-[55vw]">
+
+<div class="w-full mt-10 h-auto flex flex-col">
+        <h3 class="text-black-pr sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-10 font-mulish text-base"><span class="font-bold">Telephone </span>(08-17 every day)<br>
+          <a class="hover:text-yellow-pr" href="tel:+47 61 99 04 93">+47 61 99 04 93</a></h3>
+          
+          
+          <h3 class="text-black-pr sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-10 mt-4 font-mulish text-base"><span class="font-bold">Email</span><br>
+              Customer Service - <a class="hover:text-yellow-pr" href="mailto:info@skibuahafjell.no">info@skibuahafjell.no </a><br>
+              Putte - <a class="hover:text-yellow-pr" href="mailto:p@skibuahafjell.no">p@skibuahafjell.no </a><br>
+             Camilla - <a class="hover:text-yellow-pr" href="mailto:c@skibuahafjell.no">c@skibuahafjell.no </a><br>
+              Per - <a class="hover:text-yellow-pr" href="mailto:pl@skibuahafjell.no">pl@skibuahafjell.no </a></h3>
+              
+              <h3 class="text-black-pr  sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-10 mt-4 font-mulish text-base"><span class="font-bold">Socials</span><br>
+                  Facebook - <a class="hover:text-yellow-pr" href="https://www.facebook.com/skibua/?locale=sv_SE">@skibua </a><br>
+                  Instagram - <a class="hover:text-yellow-pr" href="https://www.instagram.com/skibuahafjell/">@skibuahafjell </a><br>
+                  YouTube - <a class="hover:text-yellow-pr" href="https://www.youtube.com/@SkibuahafjellNo/videos">@skibuahafjell </a> </h3>
+              
+              <p class="font-mulish mt-6 sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-10 text-lg mb-4 text-black-pr font-light">If you live nearby - come visit us!</p> 
+             
+
+                  <div class="h-[62vh] w-full">
+                      <div class="h-[60vh]  sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-4">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1920.0074221001548!2d10.442702977295273!3d61.234444375592396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466a8bb3f442953f%3A0x5d465264a005a751!2sSkibua%20Hafjell%20Skiutleie!5e0!3m2!1ssv!2sse!4v1684356962100!5m2!1ssv!2sse"  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div></div>
+                </div>
+      </div>
+
+      <div class="sm:w-screen bg-black-pr flex flex-col lg:border-l lg:border-lightgrey-pr lg:w-[45vw]">
+        
+        
+        <form id="contact-form" class="flex items-start  sticky top-[0vh] pt-10 flex-col bg-black-pr">
+          <p class="text-3xl font-mulish font-light sm:ml-3 lg:ml-4 pb-6 text-white-pr">Tell us!</p>
+         
+         <div class="w-full h-auto flex ">
+          <div class="w-full h-auto flex flex-col">
+          <label class="font-mulish text-white-pr font-light text-lg sm:ml-3 lg:ml-4  ">First name <span class="text-sm"> (required)</span></label>
+          <input type="text" name="first_name" class="bg-white-pr  sm:ml-3 lg:ml-4 mr-2  py-1 ps-1 border border-yellow-pr  text-black-pr font-mulish text-base font-light">
+        </div>
+        <div class="w-full h-auto flex flex-col">
+            <label class="font-mulish text-white-pr font-light text-lg ml-2 sm:mr-3 lg:mr-4 ">Last name</label>
+            <input type="text" name="first_name" class="bg-white-pr ml-2  sm:mr-3 lg:mr-4  py-1 ps-1 border border-yellow-pr  text-black-pr font-mulish text-base font-light">
+          </div>
+    </div>
+        <div class="w-full h-auto flex flex-col">
+
+          <label class="font-mulish text-white-pr pt-4 font-light text-lgs m:ml-3 lg:ml-4 sm:mr-3 lg:mr-4 ">Email <span class="text-sm"> (required)</span></label>
+          <input type="email" name="user_email" class="bg-white-pr sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-4  py-1 border border-black-pr border-yellow-pr text-black-pr font-mulish text-base font-light">
+        </div>
+        <div class="w-full h-auto flex flex-col">
+
+          <label class="font-mulish text-white-pr pt-4 font-light text-lg sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-4 ">Message</label>
+          <textarea name="message"  class="bg-white-pr sm:ml-3 lg:ml-4 sm:mr-3 lg:mr-4  py-1 border border-black-pr text-black-pr border-yellow-pr font-mulish text-base font-light"></textarea>
+        </div>
+        <input type="submit" value="SEND" class="sm:mb-20 lg:mb-10 mt-5 ml-4 hover:ml-3  flex items-center  justify-center w-[250px] h-[55px] border-2 border-white-pr flex  items-center font-semibold sm:text-base lg:text-lg font-mulish text-white-pr bg-black-pr 
+        hover:w-[260px] hover:border-black-pr hover:bg-blue-pr hover:text-white-pr transition-all delay-50 duration-300 hover:text-7xl
+        active:scale-90 active:font-light active:bg-white-pr">
+      </form>
+      </div></div>
+    </section>
+
+</main>
+
+
+
+
+
+
+
+<footer class="z-50  absolute " >
+    <div class="w-screen sm:h-16 lg:h-24 flex border-t bg-white-pr border-black-pr">
+    <div  class="h-full flex justify-center hover:bg-[#006699] translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+       <a href="https://www.linkedin.com/in/putte-gottlieb-56384419/?originalSubdomain=no" target="_blank"><img src="img/linkedin.svg.png" class="sm:h-8 lg:h-12  w-auto">
+        <img  src="img/linkedin2.png" class="h-10 hidden w-auto">
+      </a> 
+      </div>
+      <div id="instagramcont" class="h-full flex justify-center hover:bg-instagram bg-cover translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+        <a href="https://www.instagram.com/skibuahafjell/" target="_blank">  <img id="instagram" src="img/instagram.svg.webp" class="sm:w-8 lg:w-12  h-auto">
+        <img id="instagram2" src="img/instagram2.png" class="sm:w-7 lg:w-9 hidden h-auto">
+        </a>
+      </div>
+      <div  class="h-full flex justify-center hover:bg-[#1877F2] translate-all duration-500 items-center w-1/5 border-r border-black-pr">
+        <a href="https://www.facebook.com/skibua" target="_blank">   <img src="img/Facebook-logo.png" class="sm:h-8 lg:h-14  w-auto">
+        </a>
+      </div>
+      <div id="youtubecont" class="h-full flex justify-center hover:bg-[#FE0000] translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+        <a href="https://www.youtube.com/@SkibuahafjellNo/videos" target="_blank">   <img id="youtube" src="img/youtube-1.png" class="sm:w-20 lg:w-24  h-auto">
+        <img id="youtube2" src="img/youtube-2.png" class="w-20 hidden h-auto">
+        </a>
+      </div>
+      <div id="emailcont" class="h-full flex justify-center hover:bg-black-pr translate-all duration-300 items-center w-1/5 border-r border-black-pr">
+        
+        <a href="mailto:p@skibuahafjell.no">
+        <img id="email" src="img/email2.png" class="sm:w-8 lg:w-12  h-auto">
+        <img id="email2" src="img/email.png" class="sm:w-8 lg:w-12 hidden h-auto">
+      </a>
+      </div>
+  
+    </div>
+  
+    <!-- <section id="experience" class="transition-all max-w-[100vw] ease-in-out duration-300 delay-50 border-t border-black-pr top-0 hover:bg-yellow-pr mt-0 h-[3vh] bg-white-pr  mb-0">
+      <div class=" lg:block  overflow-x-hidden  border-black     ">
+        <div  class="text-black-pr font-bold   hover:pause animate-marquee flex  items-center whitespace-nowrap ">
+          <div class="flex gap-0 items-center">
+           
+    
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class=" active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+            <a href="" class="active:scale-110 mx-4 text-base font-mulish  ">SPRING SALE <span class="font-light">40% </span></a>
+  
+  
+  
+           
+           
+          </div>
+    
+        </div>
+    </div>
+    <div class="sm:flex lg:hidden items-center justify-center gap-3">
+      <a href="" class="active:scale-110 text-black-pr font-bold text-base">SPRING SALE <span class="font-normal">40%</span></a>
+     <p class="text-black-pr font-light  text-base">|</p>
+      <a href="" class="active:scale-110 text-black-pr font-bold text-base">STROLZ BOOTS <span class="font-normal">Tailored</span></a>
+    </div>
+    </section> -->
+    <div class="border-white-pr bg-black-pr sm:h-auto sm:flex-col lg:flex-row lg:h-[43vh] flex w-screen bg-black-pr">
+  <div class="flex items-center justify-center sm:pt-10 lg:pt-0 h-full sm:w-screen lg:w-1/2">
+   <img src="img/Footer logotype.png" class="w-3/5">
+  </div>
+  
+  <div class="lg:w-1/2 sm:w-screen sm:flex-col lg:flex-row flex">
+    <div class="sm:w-screen lg:w-1/3 flex mt-16 flex-col">
+    <div class="sm:mx-3 lg:mx-0 border-b border-white-pr">
+      <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Products</h3>
+    </div>
+    <a href="gogglesplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">Goggles</a>
+    <a href="blossomplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Blossom skis</a>
+    <a href="strolzplp.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Strolz Boots</a>
+  
+  </div>
+  
+  <div class="sm:w-screen lg:w-1/3 flex mt-16 flex-col">
+    <div class="sm:mx-3 lg:mx-0 border-b border-white-pr">
+      <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Services</h3>
+    </div>
+    <a href="bootfitting.html" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">Boot Fitting</a>
+    <a href="aboutus.html#contact" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Workshop</a>
+    <a href="aboutus.html#contact" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Test Center</a>
+  
+  </div>
+  <div class="sm:w-screen sm:pb-20 lg:w-1/3 flex mt-16 flex-col">
+    <div class="border-b sm:ml-3 lg:ml-0 sm:mr-3 lg:mr-10 border-white-pr">
+      <h3 class="font-mulish font-normal mb-2 text-lg text-white-pr">Contact</h3>
+    </div>
+    <a href="mailto:felix.johan.gottlieb@gmail.com" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-6 text-base text-white-pr">p@skibuahafjell.no</a>
+    <a href="" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">+47 43 24 53</a>
+    <a href="aboutus.html#contact" target="_blank" class="hover:-translate-y-1 delay-50 duration-300 sm:mx-3 lg:mx-0 hover:text-yellow-pr transition-all duration-300 delay-100 font-mulish font-light mt-4 text-base text-white-pr">Find us!</a>
+  
+  
+  </div>
+  </div>
+  </div>
+  <div class="sm:h-26 lg:h-10 flex sm:flex-col 	 lg:flex-row sm:gap-4 lg:gap-0 justify-evenly items-center bg-blue-pr w-screen">
+  <div class="sm:h-4 sm:order-last lg:order-first lg:h-10 sm:w-screen lg:w-1/3 flex items-end justify-start">
+    <p class="text-xs text-white-pr sm:ml-3 lg:ml-4 font-mulish font-light">© 2023 Skibua Hafjell AS</p>
+  </div>
+  <div class="h-10 sm:w-screen lg:w-1/3   flex justify-center sm:items-end lg:items-center gap-10">
+  <a href="" class="hover:text-yellow-pr font-mulish font-normal text-base text-white-pr">Cookie Policy</a>
+  <a href="" class="hover:text-yellow-pr  font-mulish font-normal text-base text-white-pr">Terms & Conditions</a>
+  <a href="" class="hover:text-yellow-pr transition-color duration-100 font-mulish font-normal text-base text-white-pr">Shipping & Returns</a>
+  
+  </div>
+  <div class="h-10 sm:justify-center lg:justify-end sm:items-end lg:items-center flex sm:w-screen lg:w-1/3 ">
+    <img src="img/stripe.svg" class="mr-4 h-7">
+  </div>
+  
+  </div>
+  </footer>
+  
+  </body>
+  <script>
+    window.SnipcartSettings = {
+        publicApiKey: 'OTRlNjA3ODctMWQ3Yy00OTlmLWFhOWYtYmI3YmUzOWJmMGEyNjM4MTkxNTc4NDQ2NTA3NDEw',
+        loadStrategy: 'on-user-interaction',
+      
+        modalStyle: "side",
+        
+  
+    };
+  
+    (()=>{var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var f=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,m=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(m.forEach(t=>document.addEventListener(t,o)),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],e=document.querySelector("#snipcart"),i=document.querySelector(`src[src^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][src$="snipcart.js"]`),n=document.querySelector(`link[href^="${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}"][href$="snipcart.css"]`);e||(e=document.createElement("div"),e.id="snipcart",e.setAttribute("hidden","true"),document.body.appendChild(e)),v(e),i||(i=document.createElement("script"),i.src=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.js`,i.async=!0,t.appendChild(i)),n||(n=document.createElement("link"),n.rel="stylesheet",n.type="text/css",n.href=`${window.SnipcartSettings.protocol}://${window.SnipcartSettings.domain}/themes/v${window.SnipcartSettings.version}/default/snipcart.css`,t.prepend(n)),m.forEach(g=>document.removeEventListener(g,o))}function v(t){!f||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+  </script>
+  <script type="module" src="aboutus.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+  </body>
+  </html>
+  
+  

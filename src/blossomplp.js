@@ -9,15 +9,28 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+
 const menuButton = document.querySelector("#openmenu");
 const closeButton = document.querySelector("#closemenu");
 
+const openChoice = document.querySelector("#openchoice");
+const openedChoice = document.querySelector("#openedchoice");
 
 const openLang = document.querySelector("#openlang");
 const openedLang = document.querySelector("#openedlang");
 
-const cookies = document.querySelector("#cookiebanner");
-const cookiesbutton = document.querySelector("#cookiesok");
+
+const plusSign = document.querySelector(".plussign");
+const minusSign = document.querySelector(".minussign");
+
+const arrowSwitch1 = document.querySelector("#arrow1");
+const arrowSwitch2 = document.querySelector("#arrow2");
+const lenghtSwitch1 = document.querySelector("#lenght1");
+const lenghtSwitch2 = document.querySelector("#lenght2");
+
+
+const arrowText = document.querySelector("#text-cuh");
+
 
 const youtubeCont = document.querySelector("#youtubecont");
 const instagramCont = document.querySelector("#instagramcont");
@@ -25,12 +38,17 @@ const emailCont = document.querySelector("#emailcont");
 
 
 
-cookies.addEventListener("click", () => {
-  document.querySelector("#cookiebanner").classList.add("hidden");
- 
+arrowText.addEventListener("mouseover", () => {
+    document.querySelector("#arrowcuh").classList.add("opacity-up");
   
-
-});
+  
+  });
+  
+  arrowText.addEventListener("mouseout", () => {
+    document.querySelector("#arrowcuh").classList.remove("opacity-up");
+  
+  
+  });
 
 menuButton.addEventListener("click", () => {
   document.querySelector("#navbar-closed").classList.add("sm:hidden");
@@ -46,6 +64,16 @@ closeButton.addEventListener("click", () => {
   document.querySelector("#navbar-closed").classList.remove("sm:hidden");
 });
 
+openChoice.addEventListener("click", () => {
+  document.querySelector("#openedchoice").classList.toggle("hidden");
+  document.querySelector("#lenght1").classList.toggle("hidden");
+  document.querySelector("#lenght2").classList.toggle("hidden");
+
+  document.querySelector("#arrow1").classList.toggle("hidden");
+  document.querySelector("#arrow2").classList.toggle("hidden");
+
+
+});
 
 
 openLang.addEventListener("mouseover", () => {
